@@ -3,7 +3,7 @@ LABEL maintainer="Wang Siyong <siyong@vaultdragon.com>"
 
 ADD ./package.json /app/package.json
 WORKDIR /app
-RUN npm install
+RUN npm install -g
 
 # add app
 ADD . /app
