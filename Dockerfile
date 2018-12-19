@@ -18,5 +18,5 @@ RUN chmod +x -R /usr/local/bin
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
 
 #Default command to run on start up
-#CMD ["/usr/local/bin/start-app.sh"]
-CMD ["node","index.js"]
+CMD ["/usr/local/bin/run-autodeploy.sh"]
+#CMD ["node","index.js"]
