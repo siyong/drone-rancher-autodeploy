@@ -1,4 +1,4 @@
 #!/bin/sh
 echo "running autodeploy"
 #exec node index.js
-exec autodeploy
+exec node autodeploy.js
